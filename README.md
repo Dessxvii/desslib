@@ -9,7 +9,7 @@ npm install --save desslib
 ```
 __Implementation__
 * after creating a node project
-* enter on cli
+* run on cli
 ```bash 
 npm init
 ``` 
@@ -17,7 +17,7 @@ to create your package.json
 * You must have it before installing
 # About Having a Server:
 ```text
-Desslib already in-built express server
+Desslib already has in-built express server
 ```
 # How to use :
 ```js
@@ -42,7 +42,7 @@ return
 }
 //Listen for event types
 //NOTE 🔰:Read @schmarvery/facebook-chat-api docs for event types
-listener.when('k',(err, message,api)=>{
+listener.when('message',(err, message,api)=>{
 //Listener errors
 if(err){
 console.log(err)
