@@ -1,7 +1,7 @@
 
 
 
-# # Documentation
+#  Documentation
 
 __How to install__
 ```linux
@@ -9,13 +9,17 @@ npm install --save desslib
 ```
 __Implementation__
 * after creating a node project
-* enter ```bash npm init``` to create your package.json
+* enter on cli
+```bash 
+npm init
+``` 
+to create your package.json
 * You must have it before installing
 #About Servers
 ```text
 Desslib already in-built express server
 ```
-##How to use :
+# How to use :
 ```js
 const {keepAlive ,init }= require ('desslib')
 const PORT = 2023
