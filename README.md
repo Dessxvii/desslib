@@ -50,7 +50,7 @@ return
 }
 //my api class has only one method: reply('msg',threadID)
 //Example to send messages
-{ body ,senderID,threadID} = message
+( { body ,senderID,threadID} = message)
 
 if(body ==='i love desslib'){
 api.reply('yes,it\'s simple and saves times',threadID)
