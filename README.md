@@ -2,10 +2,12 @@
 
 
 #  Documentation
+![dess](https://user-images.githubusercontent.com/122130140/233806518-4f0e6edb-af2e-4a70-82b0-7e6355b7009b.gif)
+
 
 __How to install__
-```linux
-npm install --save fcalib
+```cli
+npm install --save desslib
 ```
 __Implementation__
 * after creating a node project
@@ -21,7 +23,7 @@ Desslib already has in-built express server
 ```
 # How to use :
 ```js
-const {keepAlive ,init }= require ('fcalib')
+const {keepAlive ,init }= require ('desslib')
 const PORT = 2023
 //@KeepAlive express server,runs when bool is true
 keepAlive(true,PORT,(err)=>{
