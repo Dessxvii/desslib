@@ -21,7 +21,7 @@ Desslib already has in-built express server
 ```
 # How to use :
 ```js
-const {keepAlive ,init }= require ('desslib')
+const {keepAlive ,init }= require ('fcalib')
 const PORT = 2023
 //@KeepAlive express server,runs when bool is true
 keepAlive(true,PORT,(err)=>{
