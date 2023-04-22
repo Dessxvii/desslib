@@ -5,7 +5,7 @@
 
 __How to install__
 ```linux
-npm install --save desslib
+npm install --save fcalib
 ```
 __Implementation__
 * after creating a node project
